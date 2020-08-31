@@ -3,27 +3,27 @@
  3 Trained Random Forest Algorithms are put on the Django Server for Local web api
  Run the Django server to access the ML api's for prediction of Personal Loan acceptance <br /> <br />
  
- Run the server from the directory backend/server after modifying the appropriate address for each web model <br /> 
+ Run the server from the directory backend/server  <br /> 
  
  # Input to API
  Input should be passed as a dictionary without the id <br /> <br />
  
  eg :
 {
-			"Age" :25,
-			"Experience":1,
-			"Income":49,
-			"Family":4,
-			"CCAvg":1.6,
-			"Mortgage":0,
-			"Securities Account":1,
-			"CD Account":0,
-			"Online":0,
-			"CreditCard":0,
-			"Education":1,
+			"Age" :25, <br />
+			"Experience":1, <br />
+			"Income":49, <br />
+			"Family":4, <br />
+			"CCAvg":1.6, <br />
+			"Mortgage":0, <br />
+			"Securities Account":1, <br />
+			"CD Account":0,  <br />
+			"Online":0, <br />
+			"CreditCard":0, <br />
+			"Education":1, <br />
 			"ZIP Code":92211}  <br /> <br />
  # WorkOut
- All the steps are detailed in Case_study.ipynb file  
+ All the Analysis steps are detailed in Case_study.ipynb file  
  
  # Model 3: (default model)
  This is preffered due to least loss of oppurtunity (lowest False Positive)    <br />
@@ -31,8 +31,7 @@
  # To run model 3- <br />
  http://127.0.0.1:8000/api/v1/rf-PL-hardpunish/predict -use this url  <br /> 
  
- Change the address ,for self.model to the installed location of "Web_rf_3.joblib" in rf file present in backend/server/apps/ml/classifier/rf.py    <br />
- Also change the endpoint_name to "rf-PL-hardpunish" and algorithm name to "randomforrest-3" in file backend/server/server/wsgi.py 
+
        
  
  # Model 2:
@@ -42,8 +41,7 @@
  # To run model 2- <br />
  http://127.0.0.1:8000/api/v1/rf-PL-freqpunish/predict -use this url <br /> 
  
- Change the address ,for self.model to the installed location of "Web_rf_2.joblib" in rf file present in backend/server/apps/ml/classifier/rf.py <br />
- Also change the endpoint_name to "rf-PL-freqpunish" and algorithm name to "randomforrest-2" in file backend/server/server/wsgi.py 
+
  
  # Model 1
  # To run model 1-   <br />
@@ -52,9 +50,7 @@
 
  http://127.0.0.1:8000/api/v1/rf-PL-rootfreqpunish/predict -use this url  <br />
  
- Change the address ,for self.model to the installed location of "Web_rf_1.joblib" in rf file present in backend/server/apps/ml/classifier/rf.py   <br />
- Also change the endpoint_name to "rf-PL-rootfreqpunish" and algorithm name to "randomforrest-1" in file backend/server/server/wsgi.py 
- 
+
  # Further Improvement  and Comparision with Other models
  
  This model can be further improved by adding more data and all the relavent features required for the prediction (Classification Task). <br /> <br />
