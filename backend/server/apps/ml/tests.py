@@ -17,7 +17,7 @@ class MLtests(TestCase):
 			"Online":0,
 			"CreditCard":0,
 			"Education":1,
-			"ZIP Code":92211
+			"ZIP Code":92212
 
 		}
 		alg=RandomForestClassifier()
