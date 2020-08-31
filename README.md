@@ -3,7 +3,8 @@
  3 Trained Random Forest Algorithms are put on the Django Server for Local web api
  Run the Django server to access the ML api's for prediction of Personal Loan acceptance <br /> <br />
  
- Run the server from the directory backend/server  <br /> 
+ Run the server from the directory backend/server  <br />  
+ Add your Django_SECRET_KEY in backend/server/server.settings.py  <br />
  
  # Input to API
  Input should be passed as a dictionary without the id <br /> <br />
