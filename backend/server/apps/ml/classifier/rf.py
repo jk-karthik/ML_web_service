@@ -5,7 +5,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 import os
 class RandomForestClassifier:
-<<<<<<< HEAD
+
 	def __init__(self,filepath):
 		path=os.path.dirname(os.path.realpath(__file__))
 		self.model=joblib.load(path+"\\"+filepath)
