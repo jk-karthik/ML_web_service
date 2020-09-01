@@ -4,7 +4,7 @@
  Run the Django server to access the ML api's for prediction of Personal Loan acceptance <br /> <br />
  
  Run the server from the directory backend/server  <br />  
- Add your Django_SECRET_KEY in backend/server/server.settings.py  <br />
+ Add your Django_SECRET_KEY in backend/server/server.settings.py (not mandatory unless you want to store requests in database)  <br />
  
  # Input to API
  Input should be passed as a dictionary without the id <br /> <br />
