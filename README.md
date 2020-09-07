@@ -1,7 +1,9 @@
 # Added MileStone 2
 
 Clustering and Portfolio optimization of stocks <br />
-Plotted Efficient Frontier for the 100 most actively traded stocks in India
+Plotted Efficient Frontier for the 100 most actively traded stocks in India <br /> <br />
+
+Please reload the page to view if there is an issue opening up .ipynb files
 
 
 
