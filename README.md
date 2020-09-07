@@ -1,3 +1,10 @@
+# Added MileStone 2
+
+Clustering and Portfolio optimization of stocks <br />
+Plotted Efficient Frontier for the 100 most actively traded stocks in India
+
+
+
 # ML_web_service
 
  3 Trained Random Forest Algorithms are put on the Django Server for Local web api
