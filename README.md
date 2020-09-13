@@ -1,3 +1,7 @@
+# Added MileStone 3
+
+Stock Price movement prediction using Technical and fundamental factors such as PE ratio, Wiki Trends,RSI, Open,Close,High,Low
+
 # Added MileStone 2
 
 Clustering and Portfolio optimization of stocks <br />
